@@ -128,17 +128,17 @@ Unlike production servers in the environment (data server, media node, etc.), th
 This repository contains:
 - `README.md` – Project overview and summary
 - `utility-node-lab-report.md` – This detailed report
-- `ufw-status.txt` – UFW rule snapshot
-- `tailscale-status.txt` – Tailscale peer list (sanitized)
-- `wg0.conf` – WireGuard config (keys redacted)
-- `wg-show.txt` – WireGuard status output
+- `ufw-status.md` – UFW rule snapshot
+- `tailscale-status.md` – Tailscale peer list (sanitized)
+- `wg0_conf.md` – WireGuard config (keys redacted)
+- `wg-show.md` – WireGuard status output
 
 ---
 
 ## 7. Lessons Learned
 
 - Scope discipline is essential: this project nearly grew into a mini SOC box.
-- Tailscale provides immediate, low-friction remote access; WireGuard teaches fundamentals. Running both side-by-side is valuable for comparative learning.  
+- Tailscale provides immediate, low-friction remote access; WireGuard teaches fundamentals. Running both side-by-side is valuable for comparative learning. 
 - Installing Pi-hole in a lab but keeping it inactive is a safe way to prevent unintended production disruption.
 - Documenting firewall state and service roles ensures clarity when revisiting the node later.
 - Continued learning how important each server and core service works together to make the network come alive. 
@@ -157,6 +157,6 @@ This repository contains:
 
 ## 9. Conclusion
 
-The Utility NUC Server (*utility-nuc*, GMK NucBox G5) is now **rack-ready** with four services installed, two active, one idle, and one parked.  
-It provides a safe, secure environment to practice VPN, synchronization, and DNS concepts without impacting critical homelab infrastructure.  
+The Utility NUC Server (*utility-nuc*, GMK NucBox G5) is now **rack-ready** with four services installed, two active, one idle, and one parked. 
+It provides a safe, secure environment to practice VPN, synchronization, and DNS concepts without impacting critical homelab infrastructure. 
 This lab represents a foundation: future projects will build on this node, deepening the learning environment step by step.
