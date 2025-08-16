@@ -1,0 +1,30 @@
+# Ignore sensitive system files
+*.key
+*.priv
+*.pem
+
+# Ignore WireGuard private keys
+/etc/wireguard/privatekey
+
+# Ignore swap files
+*.swp
+*.swo
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+*.old
+
+# Ignore editor/IDE metadata
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache (if any scripts are added later)
+__pycache__/
+*.pyc
